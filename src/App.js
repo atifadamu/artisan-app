@@ -9,6 +9,7 @@ import Painter from "./components/Painter";
 import Mason from "./components/Mason";
 import Electrician from "./components/Electrician";
 import AddArtisan from "./components/AddArtisan";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
 
         <Route path="/plumber" element={<Plumber />} />
         <Route path="/painter" element={<Painter />} />
